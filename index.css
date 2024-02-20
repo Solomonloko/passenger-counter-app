@@ -1,0 +1,67 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: 100%;
+    margin: 15% auto auto auto;
+    padding: 20px;
+    background: url(pexels-eberhard-grossgasteiger-1624496.jpg) 100%;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+h2, h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p#save-el{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(180deg, #d0cece, #FFFF) 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+button#increment{
+    width: 50%;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    font-size: 100%;
+    justify-content: center;
+    background-color: green;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#save{
+    width: 50%;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 100%;
+    justify-content: center;
+    background-color: rgb(119, 8, 8);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
